@@ -24,7 +24,7 @@
 &trans  &kp Q             &kp W   &kp E    &kp R         &kp T                                                     &kp Y    &kp U   &kp I      &kp O     &kp P                 &trans
 &trans  &kp A             &kp S   &kp D    &kp F         &kp G      &trans                   &trans                &kp H    &kp J   &kp K      &kp L     &kp SEMI              &trans
 &trans  &mt LEFT_SHIFT Z  &kp X   &kp C    &kp V         &kp B      &kp LEFT_CONTROL         &kp BACKSPACE         &kp N    &kp M   &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &trans
-&trans  &tog 1            &gresc  &kp TAB  &kp LEFT_ALT  &kp SPACE  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL LANGUAGE_1  &kp RET  &trans  &trans     &kp RGUI  &tog 1                &trans
+&trans  &mo 1             &gresc  &kp TAB  &kp LEFT_ALT  &kp SPACE  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL LANGUAGE_1  &kp RET  &trans  &trans     &kp RGUI  &mo 1                 &trans
             >;
         };
 
@@ -33,18 +33,18 @@
 &trans  &trans        &trans        &trans        &trans        &trans                                 &trans            &trans             &trans        &trans           &trans            &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0      &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans        &trans        &trans     &kp LEFT_ARROW    &kp DOWN_ARROW     &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS          &trans
-&trans  &trans        &trans        &trans        &trans        &bootloader   &kp LEFT_GUI  &mkp MB4   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL        &kp SINGLE_QUOTE  &trans
+&trans  &trans        &mo 2         &trans        &trans        &bootloader   &kp LEFT_GUI  &mkp MB4   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL        &kp SINGLE_QUOTE  &trans
 &trans  &trans        &kp TILDE     &trans        &mkp MB3      &mkp LCLK     &mkp RCLK     &mkp LCLK  &mkp RCLK         &trans             &trans        &trans           &trans            &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans         &trans            &trans             &trans         &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)      &kp LS(N7)     &kp LS(N8)        &kp LS(N9)         &kp LS(N0)     &trans
-&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans  &trans  &kp LEFT_BRACE  &kp MINUS      &kp EQUAL         &kp RIGHT_BRACE    &kp COLON      &trans
-&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp LS(MINUS)   &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB         &kp DEL        &trans            &trans             &trans         &trans
+&trans  &trans            &trans            &trans      &trans      &trans                      &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)    &kp LS(N7)    &kp LS(N8)    &kp LS(N9)    &kp LS(N0)    &trans
+&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans
+&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB       &kp DEL       &trans        &trans        &trans        &trans
             >;
         };
 
