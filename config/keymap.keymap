@@ -23,11 +23,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans            &trans  &trans   &trans        &trans                                                    &trans                        &trans  &trans     &trans    &trans                &trans
-&trans  &kp Q             &kp W   &kp E    &kp R         &kp T                                                     &kp Y                         &kp U   &kp I      &kp O     &kp P                 &trans
-&trans  &kp A             &kp S   &kp D    &kp F         &kp G                    &trans            &trans         &kp H                         &kp J   &kp K      &kp L     &kp MINUS             &trans
-&trans  &mt LEFT_SHIFT Z  &kp X   &kp C    &kp V         &kp B                    &kp LEFT_CONTROL  &kp BACKSPACE  &kp N                         &kp M   &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &trans
-&trans  &lt 1 LANGUAGE_2  &gresc  &kp TAB  &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &kp SPACE         &lt 1 ENTER    &mt RIGHT_CONTROL LANGUAGE_1  &trans  &trans     &kp RGUI  &lt 1 LANGUAGE_1      &trans
+&trans  &trans            &trans  &trans   &trans        &trans                                                  &trans                        &trans  &trans     &trans    &trans                &trans
+&trans  &kp Q             &kp W   &kp E    &kp R         &kp T                                                   &kp Y                         &kp U   &kp I      &kp O     &kp P                 &trans
+&trans  &kp A             &kp S   &kp D    &kp F         &kp G                    &trans          &trans         &kp H                         &kp J   &kp K      &kp L     &kp MINUS             &trans
+&trans  &kp Z             &kp X   &kp C    &kp V         &kp B                    &kp SPACE       &kp BACKSPACE  &kp N                         &kp M   &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &trans
+&trans  &lt 1 LANGUAGE_2  &gresc  &kp TAB  &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &kp LEFT_SHIFT  &lt 1 ENTER    &mt RIGHT_CONTROL LANGUAGE_1  &trans  &trans     &kp RGUI  &lt 1 LANGUAGE_1      &trans
             >;
         };
 
@@ -36,7 +36,7 @@
 &trans  &trans        &trans        &trans         &trans        &trans                                 &trans            &trans             &trans         &trans           &trans            &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9     &kp NUMBER_0      &trans
 &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &trans        &trans     &kp LEFT_ARROW    &kp DOWN_ARROW     &kp UP_ARROW   &kp RIGHT_ARROW  &kp APOS          &trans
-&trans  &trans        &mo 2         &mo 2          &mo 2         &mo 2         &kp LCTRL     &mkp MB4   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp EQUAL        &kp SINGLE_QUOTE  &trans
+&trans  &trans        &mo 2         &mo 2          &mo 2         &mo 2         &mkp MB5      &mkp MB4   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp EQUAL        &kp SINGLE_QUOTE  &trans
 &trans  &trans        &kp TILDE     &kp BACKSLASH  &mo 2         &mkp LCLK     &kp LEFT_GUI  &mkp LCLK  &mkp RCLK         &trans             &trans         &trans           &trans            &trans
             >;
         };
