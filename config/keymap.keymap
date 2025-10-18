@@ -37,7 +37,7 @@
 &trans  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4    &kp NUMBER_5                           &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9     &kp NUMBER_0      &trans
 &trans  &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9    &kp NUMBER_0  &trans        &trans     &kp LEFT_ARROW    &kp DOWN_ARROW     &kp UP_ARROW   &kp RIGHT_ARROW  &kp APOS          &trans
 &trans  &kp LEFT_SHIFT  &mo 2         &mo 2          &kp LEFT_SHIFT  &kp LEFT_ALT  &kp SPACE     &mkp MB4   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp EQUAL        &kp SINGLE_QUOTE  &trans
-&trans  &trans          &kp TILDE     &kp BACKSLASH  &mo 2           &mkp LCLK     &kp LEFT_GUI  &mkp LCLK  &mkp RCLK         &trans             &trans         &trans           &trans            &trans
+&trans  &trans          &kp TILDE     &kp BACKSLASH  &mkp LCLK       &mo 2         &kp LEFT_GUI  &mkp LCLK  &mkp RCLK         &trans             &trans         &trans           &trans            &trans
             >;
         };
 
@@ -47,7 +47,7 @@
 &trans  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5                                            &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &kp F11          &trans            &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans
 &trans  &trans        &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_CONTROL  &kp BACKSPACE  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &trans        &trans        &trans             &mkp LCLK        &kp LEFT_GUI      &mkp LCLK      &mkp RCLK     &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &mkp LCLK          &trans           &kp LEFT_GUI      &mkp LCLK      &mkp RCLK     &trans        &trans        &trans        &trans        &trans
             >;
         };
 
