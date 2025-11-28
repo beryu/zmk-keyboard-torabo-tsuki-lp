@@ -5,6 +5,7 @@ name: torabo_tsuki_lp
 type: shield
 features:
   - keys
+  - studio
 outputs:
   - usb
   - ble
