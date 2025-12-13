@@ -7,6 +7,7 @@
         zmk,physical-layout = &physical_layout_l;
         zmk,kscan = &kscan0;
         zmk,battery = &non_lipo_battery;
+        zephyr,boot-mode = &boot_mode0;
     };
 
     size_s_transform: keymap_transform_0 {
@@ -157,5 +158,16 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 19 GPIO_ACTIVE_LOW>;
         power-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | NRF_GPIO_DRIVE_H1)>;
+    };
+};
+
+/* Enable GPREGRET1 for boot mode retention */
+&gpregret1 {
+    status = "okay";
+
+    boot_mode0: boot_mode@0 {
+        compatible = "zephyr,retention";
+        status = "okay";
+        reg = <0x0 0x1>;
     };
 };
