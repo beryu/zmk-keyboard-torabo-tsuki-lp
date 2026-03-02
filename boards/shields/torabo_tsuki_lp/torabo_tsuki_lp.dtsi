@@ -7,7 +7,6 @@
         zmk,physical-layout = &physical_layout_l;
         zmk,kscan = &kscan0;
         zmk,battery = &non_lipo_battery;
-        zephyr,boot-mode = &boot_mode0;
     };
 
     size_s_transform: keymap_transform_0 {
